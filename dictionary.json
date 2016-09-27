@@ -1,0 +1,42 @@
+{
+    "name": "Example Cabin",
+    "identifier": "sc",
+    "subsystems": [
+        {
+            "name": "Sensors",
+            "identifier": "sns",
+            "measurements": [
+                {
+                    "name": "Temperature",
+                    "identifier": "sns.temp",
+                    "units": "degrees",
+                    "type": "float"
+                },
+                {
+                    "name": "Humidity",
+                    "identifier": "sns.humid",
+                    "units": "None",
+                    "type": "integer"
+                }
+            ]
+        },
+        {
+            "name": "Communications",
+            "identifier": "comms",
+            "measurements": [
+                {
+                    "name": "Received",
+                    "identifier": "comms.recd",
+                    "units": "bytes",
+                    "type": "integer"
+                },
+                {
+                    "name": "Sent",
+                    "identifier": "comms.sent",
+                    "units": "bytes",
+                    "type": "integer"
+                }
+            ]
+        }
+    ]
+}
